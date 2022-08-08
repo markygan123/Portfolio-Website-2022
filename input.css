@@ -1,0 +1,12 @@
+@tailwind base;
+
+.bg-card {
+    @apply absolute z-0 inset-0 bg-gradient-to-r from-cyan-400 to-indigo-400 shadow-md transform -skew-y-6 sm:skew-y-0 sm:-rotate-6 rounded-md;
+}
+
+.button {
+    @apply inline-block bg-gradient-to-r from-cyan-300 to-indigo-400 px-6 py-2 rounded-md shadow-md font-bold text-sm text-white;
+}
+
+@tailwind components;
+@tailwind utilities;

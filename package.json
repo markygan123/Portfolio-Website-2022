@@ -1,0 +1,17 @@
+{
+  "name": "portfolio-2022",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "npx tailwindcss -i ./input.css -o ./public/output.css --watch",
+    "prod": "npx tailwindcss -i ./input.css -o ./public/output.css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "netlify-cli": "^10.15.0",
+    "tailwindcss": "^3.1.8"
+  }
+}
